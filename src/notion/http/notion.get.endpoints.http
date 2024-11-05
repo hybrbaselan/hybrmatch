@@ -1,0 +1,26 @@
+### Test Notion Connection
+GET http://localhost:3000/notion/test
+
+### Get Users from Notion
+GET http://localhost:3000/notion/users
+Accept: application/json
+
+### Get Freelancers from Notion
+GET http://localhost:3000/notion/freelancers
+Accept: application/json
+
+### Get Projects from Notion
+GET http://localhost:3000/notion/projects
+Accept: application/json
+
+### Get Single User by ID
+GET http://localhost:3000/notion/users/2
+Accept: application/json
+
+### Get Single Freelancer by ID
+GET http://localhost:3000/notion/freelancers/8
+Accept: application/json
+
+### Get Single Project by ID
+GET http://localhost:3000/notion/projects/4
+Accept: application/json
